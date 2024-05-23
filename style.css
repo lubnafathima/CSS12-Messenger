@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.aside {
+  width: 27rem;
+  padding: 1.25rem 0.56rem 1.25rem 1rem;
+  background-color: #f5fafc;
+  position: relative;
+}
+
+.aside-icon {
+  margin-left: 1rem;
+  width: 2.5rem;
+  height: auto;
+}
+
+.search-bar {
+  background-color: #fff;
+  border: 1px solid #d1e4e8;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.56rem;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0.8rem;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: #9393c1;
+}
+
+.user-card {
+  padding: 0.65rem 0.75rem;
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.active {
+  background-color: #d1e4e8;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-header,
+.user-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.user-time {
+  font-size: 0.625rem;
+  color: #829c99;
+}
+
+.user-para {
+  font-size: 0.75rem;
+}
+
+.message-container {
+  background-color: #128c7e;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 1.75rem;
+  right: 1.25rem;
+  padding: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 100%;
+  position: relative;
+  background-color: #fafafa;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #fafafc;
+}
+
+.main-navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-navbar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.main-name {
+  color: #09132c;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.main-status {
+  color: #6e7fa9;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.main-status-icon {
+  margin-right: 0.25rem;
+}
+
+.main-nav-menu {
+  display: flex;
+  gap: 2.25rem;
+  margin-right: 0.75rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.main-text {
+  display: flex;
+  border-radius: 0.75rem;
+  background: #feecdc;
+  gap: 0.62rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+  width: 45vw;
+}
+
+.main-content {
+  background-color: #f6f6f6;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 78%;
+}
+
+.main-input {
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 1.5rem;
+  background: #fff;
+  color: #8f8f8f;
+  font-size: 0.875rem;
+}
+
+.main-mic-icon {
+  margin-right: 0.75rem;
+}
